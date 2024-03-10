@@ -1,0 +1,15 @@
+{
+  "name": "random-inputs",
+  "version": "1.0.0",
+  "description": "Firefox extension to fill form fields with random data",
+  "private": true,
+  "scripts": {
+    "build": "esbuild src/background-entry.js --bundle --outfile=background.js --format=iife --platform=browser"
+  },
+  "dependencies": {
+    "@faker-js/faker": "^8.4.1"
+  },
+  "devDependencies": {
+    "esbuild": "^0.20.1"
+  }
+}
