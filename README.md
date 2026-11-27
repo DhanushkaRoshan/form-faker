@@ -1,5 +1,7 @@
 # Form Faker
 
+> Originally built in 2024. Uploaded to GitHub in 2026.
+
 A Firefox extension that fills form fields with realistic random data. Right-click any input field to get smart suggestions powered by [Faker.js](https://fakerjs.dev/).
 
 ## Features
